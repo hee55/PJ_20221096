@@ -1,0 +1,143 @@
+header { /*메인 페이지 제목부분*/
+    text-align: center;
+    font-size: 20px;
+    color:aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav { /* 목록 */
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    margin: 0 auto;
+}
+section {
+    margin: auto;
+    padding: 20px ;
+}
+footer {
+    margin-top: 600px;
+}
+
+.in_bo {
+    background-image: url("img/map03.jpg");
+    background-repeat: no-repeat;
+} 
+ul {
+    text-align: right;
+    list-style: none;
+}
+img {
+    float: left;
+}
+
+.Area_title {
+    text-align: left;
+    color: black;
+    font-size: 40px;
+}
+.list { /*목록*/
+    margin-top:300px;
+    color: black;
+    font-size: 30px;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+
+#bu {
+    font-size: 1.3rem;
+    position: relative;
+    top: 423px;
+    left: -227px;
+    color: black;
+}
+#gang {
+    font-size: 1.3rem;
+    position: relative;
+    top: 110px;
+    left: -230px;
+    color: black;
+}
+#je {
+    font-size: 1.3rem;
+    position: relative;
+    top: 580px;
+    left: -420px;
+    color: black;
+}
+#bo {
+    font-size: 1.3rem;
+    position: relative;
+    top: 250px;
+    left: -420px;
+    color: black;
+}
+
+
+#bu:hover {
+    color: red;
+    font-size: 50px;
+}
+#gang:hover {
+    color: red;
+    font-size: 50px;
+}
+#je:hover {
+    color: red;
+    font-size: 50px;
+}
+#bo:hover {
+    color: red;
+    font-size: 50px;
+}
+
+#main_p {  /*지도 위에 쓸 글자*/
+    text-align: left;
+    font-size: 17px;
+}
+.main_b { /*메인페이지 바디*/
+    background-color:rgb(143, 162, 197);
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.area_b { /*지역 바디*/
+    background-color:rgb(143, 162, 197);
+}
+.area_se { /*지역 se*/
+    background-color: aliceblue;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.lodg_a { /*숙소 하이퍼링크*/
+    text-decoration-line:overline;
+    color:darkblue
+}
+
+.jo_img { /*텍스트가 써질 이미지 */
+    position: relative;
+}
+.img_text { /*이미지 위에 써질 텍스트*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, 0%);
+    color: aliceblue;
+    
+}
+.top_img { /*맨 위로 이미지*/
+    display:scroll;
+    position:fixed;
+    bottom:30px;
+    right:80px;
+}
+.index_img { /*인덱스 페이지로 이동*/
+    display:scroll;
+    position:fixed;
+    bottom:30px;
+    right:30px;
+}
